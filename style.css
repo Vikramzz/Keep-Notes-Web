@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(255, 243, 239);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-family: "poppins";
+}
+
+.nav{
+    background-color: rgb(249, 255, 171);
+    display: flex;
+    padding: 10px 3px 10px 15px;
+}
+.fa{
+    font-size: 30px;
+    padding-right: 12px;
+    color: rgb(8, 0, 56);
+    padding-top: 5px;
+}
+.nav h1{
+    color: rgb(8, 0, 56);
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+
+#input{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgb(91, 90, 109);
+    width: 100%;
+    padding: 5px 2px 0px 5px;
+    font-family: "poppins";
+}
+#input:focus{
+    border: 1px solid rgb(0, 0, 0);
+    outline: 0;
+}
+.btn{
+    padding: 10px 8px 10px 8px;
+    background-color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(88, 255, 88);
+    color: black;
+}
+.new{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 20vh;
+    width: 120vh;
+    display: block;
+}
+.cards{
+    text-align: center;
+    background-color: rgb(252, 255, 213);
+    flex-basis: 30%;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btn2{
+    padding: 5px 4px 5px 4px;
+    background-color: red;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.cards p{
+    padding: 4px;
+    width: 100%;
+    color: rgb(8, 0, 56);
+}
+.old{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
